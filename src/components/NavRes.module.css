@@ -1,0 +1,63 @@
+.containerMenu {
+  display: block;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #6318dd;
+  font-size: 22px;
+  font-weight: 700;
+}
+.menu svg {
+  font-size: 25px;
+  cursor: pointer;
+}
+.drawer .logo {
+  display: block;
+  border-bottom: 2px solid #6318dd;
+  margin: 0 10px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.drawer .navLink {
+  width: 50vw !important;
+  margin: 30px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.drawer .navLink a {
+  margin-bottom: 10px;
+  color: #353535;
+  transition: 0.5s ease;
+  padding: 10px;
+  border-radius: 8px;
+}
+.drawer .navLink a:hover {
+  margin-left: 10px;
+  background-color: #f9f5ff;
+}
+.drawer .navButtons {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+.drawer .navButtons button:nth-child(1) {
+  border: 1px solid #6318dd;
+  border-radius: 20px;
+  color: #6318dd;
+  margin-bottom: 20px;
+}
+.drawer .navButtons button:nth-child(2) {
+  background-color: #6318dd;
+  border-radius: 20px;
+  color: #ffffff;
+}
+@media (min-width: 887px) {
+  .containerMenu {
+    display: none !important;
+  }
+}

@@ -1,0 +1,26 @@
+.container .info p {
+  color: #858585;
+  font-size: 14px;
+  line-height: 20px;
+}
+.container .info img {
+  width: 100%;
+}
+.container .guides .itemsGuides {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+.container .guides .itemsGuides .titleInfo {
+  margin-left: 20px;
+}
+.container .guides .titleInfo p{
+    color: #858585;
+    font-size: 14px;
+    line-height: 20px;
+}
+@media (min-width: 600px) {
+  .container .info img {
+    width: 400px;
+  }
+}

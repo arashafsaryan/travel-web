@@ -1,0 +1,72 @@
+.card .image {
+  position: relative;
+}
+.card .image img {
+  width: 100%;
+}
+.card .image .score {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 5;
+  display: flex;
+  padding: 3px 5px;
+  font-size: 12px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.card .image .score svg {
+  color: gold;
+  padding-right: 5px;
+}
+.card .info h5,
+.card .info p,
+.card .info a {
+  padding: 10px 15px;
+}
+.card .city h5,
+.card .price h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.card .city p,
+.card .price p {
+  font-size: 14px;
+  color: #888888;
+}
+.card .price {
+  background-color: #fbfbfb;
+  border-radius: 0 0 20px 20px;
+  margin-top: 15px;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card .price a {
+  color: #cf57ff;
+  font-size: 14px;
+  padding-right: 20px;
+  text-shadow: 0px 0px 5px #b486ff, 0px 0px 0em #b486ff, 0px 0px 1em #b486ff;
+}
+.card .price h5 span {
+  font-size: 10px;
+  color: #c4c4c4;
+}
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (max-width: 400px) {
+  .card {
+    width: 100%;
+    margin: auto;
+  }
+}

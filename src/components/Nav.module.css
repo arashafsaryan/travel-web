@@ -1,0 +1,37 @@
+.containerNav {
+  display: none !important;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .logo {
+  color: #6318dd;
+  font-size: 22px;
+  font-weight: 700;
+}
+.nav .navItem a {
+  margin-right: 15px;
+  font-size: 14px;
+  color: #323232;
+  cursor: pointer;
+}
+.nav .navButtons button:nth-child(1) {
+  border: 1px solid #6318dd;
+  border-radius: 20px;
+  color: #6318dd;
+  font-size: 12px;
+}
+.nav .navButtons button:nth-child(2) {
+  margin-left: 15px;
+  background-color: #6318dd !important;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+@media (min-width: 887px) {
+  .containerNav {
+    display: block !important;
+  }
+}
